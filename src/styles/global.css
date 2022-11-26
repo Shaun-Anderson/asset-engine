@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .card {
+    @apply p-4 rounded-lg bg-neutral-200/50 dark:border-neutral-700 dark:border dark:bg-transparent dark:text-white;
+  }
+
+  .rtl-input {
+    direction: rtl;
+  }
+}
